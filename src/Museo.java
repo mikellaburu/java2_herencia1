@@ -25,7 +25,7 @@ public class Museo extends EspacioPublico {
 		this.tipoMuseo = tipo;
 	}
 
-	public void setCantidadobras(int obras) {
+	public void setCantidadObras(int obras) {
 		this.cantidadObras = obras;
 	}
 

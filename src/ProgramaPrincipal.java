@@ -12,10 +12,10 @@ public class ProgramaPrincipal {
 	        parque.setTipoParque("Natural");
 	        
 	        
-	        System.out.println("Tipo de espacio:" + parque.getTipoEspacio());
-	        System.out.println("Ubicacion:" + parque.getUbicacion());
-	        System.out.println("Extension:" + parque.getExtension() + " m2");
-	        System.out.println("Tipo de parque:" + parque.getTipoParque());
+	        System.out.println("Tipo de espacio: " + parque.getTipoEspacio());
+	        System.out.println("Ubicacion: " + parque.getUbicacion());
+	        System.out.println("Extension: " + parque.getExtension() + " m2");
+	        System.out.println("Tipo de parque: " + parque.getTipoParque());
 	        System.out.println();
 
 	        Museo museo = new Museo();
@@ -27,12 +27,12 @@ public class ProgramaPrincipal {
 	        museo.setPrecio(2.50);
 	        
 	        
-	        System.out.println("Tipo de espacio:" + museo.getTipoEspacio());
-	        System.out.println("Ubicacion:" + museo.getUbicacion());
-	        System.out.println("Extension:" + museo.getExtension() + " m2");
-	        System.out.println("Tipo:" + museo.getTipoMuseo());
-	        System.out.println("Cantidad de obras:" + museo.getCantidadObras());
-	        System.out.println("Precio:" + museo.getPrecio());
+	        System.out.println("Tipo de espacio: " + museo.getTipoEspacio());
+	        System.out.println("Ubicacion: " + museo.getUbicacion());
+	        System.out.println("Extension: " + museo.getExtension() + " m2");
+	        System.out.println("Tipo: " + museo.getTipoMuseo());
+	        System.out.println("Cantidad de obras: " + museo.getCantidadObras());
+	        System.out.println("Precio: " + museo.getPrecio());
 	        System.out.println();
 
 	        Biblioteca biblio = new Biblioteca();
@@ -44,13 +44,13 @@ public class ProgramaPrincipal {
 	        biblio.setCantidadSocios(10254);
 	        biblio.setEsPublico(true);
 
-	        System.out.println("Tipo de espacio:" + biblio.getTipoEspacio());
-	        System.out.println("Ubicacion:" + biblio.getUbicacion());
-	        System.out.println("Extension:" + biblio.getExtension() + " m2");
-	        System.out.println("Nombre:" + biblio.getNombre());
-	        System.out.println("Cantidad de libros:" + biblio.getCantidadLibros());
-	        System.out.println("Cantidad de socios:" + biblio.getCantidadLibros());
-	        if (biblio.getEsPublico) {
+	        System.out.println("Tipo de espacio: " + biblio.getTipoEspacio());
+	        System.out.println("Ubicacion: " + biblio.getUbicacion());
+	        System.out.println("Extension: " + biblio.getExtension() + " m2");
+	        System.out.println("Nombre: " + biblio.getNombre());
+	        System.out.println("Cantidad de libros: " + biblio.getCantidadLibros());
+	        System.out.println("Cantidad de socios: " + biblio.getCantidadLibros());
+	        if (biblio.getEsPublico()) {
 
 	        	System.out.println("Es pública");
 

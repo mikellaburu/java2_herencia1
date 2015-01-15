@@ -26,8 +26,8 @@ public class Biblioteca extends EspacioPublico {
 	}
 
 	//setters
-	public void setTipoMuseo(String tipo) {
-		this.tipoMuseo = tipo;
+	public void setNombre(String nombreBiblioteca) {
+		this.nombre = nombreBiblioteca;
 	}
 
 	public void setCantidadLibros(int libros) {
@@ -38,7 +38,7 @@ public class Biblioteca extends EspacioPublico {
 		this.cantidadSocios = socios;
 	}
 
-	public void setPrecio(boolean publico) {
+	public void setEsPublico(boolean publico) {
 		this.esPublico = publico;
 	}
 
