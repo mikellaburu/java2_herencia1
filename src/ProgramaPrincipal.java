@@ -18,7 +18,48 @@ public class ProgramaPrincipal {
 	        System.out.println("Tipo de parque:" + parque.getTipoParque());
 	        System.out.println();
 
+	        Museo museo = new Museo();
+	        museo.setTipoEspacio("Museo");
+	        museo.setUbicacion("Miramon");
+	        museo.setExtension(1363);
+	        museo.setTipoMuseo("Ciencia");
+	        museo.setCantidadObras(56);
+	        museo.setPrecio(2.50);
 	        
+	        
+	        System.out.println("Tipo de espacio:" + museo.getTipoEspacio());
+	        System.out.println("Ubicacion:" + museo.getUbicacion());
+	        System.out.println("Extension:" + museo.getExtension() + " m2");
+	        System.out.println("Tipo:" + museo.getTipoMuseo());
+	        System.out.println("Cantidad de obras:" + museo.getCantidadObras());
+	        System.out.println("Precio:" + museo.getPrecio());
+	        System.out.println();
+
+	        Biblioteca biblio = new Biblioteca();
+	        biblio.setTipoEspacio("Biblioteca");
+	        biblio.setUbicacion("Hernani");
+	        biblio.setExtension(986);
+	        biblio.setNombre("Biteri");
+	        biblio.setCantidadLibros(3543);
+	        biblio.setCantidadSocios(10254);
+	        biblio.setEsPublico(true);
+
+	        System.out.println("Tipo de espacio:" + biblio.getTipoEspacio());
+	        System.out.println("Ubicacion:" + biblio.getUbicacion());
+	        System.out.println("Extension:" + biblio.getExtension() + " m2");
+	        System.out.println("Nombre:" + biblio.getNombre());
+	        System.out.println("Cantidad de libros:" + biblio.getCantidadLibros());
+	        System.out.println("Cantidad de socios:" + biblio.getCantidadLibros());
+	        if (biblio.getEsPublico) {
+
+	        	System.out.println("Es pública");
+
+	        }else{
+
+	        	System.out.println("Es privada");
+	        }
+	        System.out.println();
+
 
 	        Hashtable<String,String> telefonos = new Hashtable<String,String>();
 
@@ -31,7 +72,7 @@ public class ProgramaPrincipal {
 			System.out.println("\tContenido del HASHTABLE de nombres y telefonos");
 			System.out.println(telefonos.get("Mikel"));
 			System.out.println(telefonos.get("Odei"));
-			System.out.println(telefonos.get("688815554"));
+			System.out.println(telefonos.get("Anthony"));
 	        
 	}
 }

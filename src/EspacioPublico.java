@@ -28,7 +28,7 @@ public class EspacioPublico {
 
 	//setters
 	public void setTipoEspacio (String tipo){
-		this.setTipoEspacio = tipo;
+		this.tipoEspacio = tipo;
 	}
 	
 	public void setUbicacion (String sitio){
